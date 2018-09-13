@@ -6,7 +6,7 @@ const NavigationItems = (props) => {
   return (
     <ul className={classes.NavigationItems}>
       <NavigationItem link="/" active={true}>
-        Burger Builder
+        Main page
       </NavigationItem>
       {/* <NavigationItem link="/">
         Checkout

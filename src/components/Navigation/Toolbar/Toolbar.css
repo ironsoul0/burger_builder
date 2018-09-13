@@ -1,0 +1,54 @@
+.Toolbar {
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #703B09;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 90;
+}
+
+.Toolbar nav {
+  height: 100%;
+}
+
+.ToolbarLogo {
+  height: 80%;
+}
+
+@media (max-width: 499px) {
+  .DesktopOnly, .ToolbarLogo {
+    display: none;
+  }
+}
+
+.Toggler, .Toggler:active, .Toggler:hover {
+  margin: 1px;
+  outline: none;
+  text-decoration: none;
+}
+
+@media (min-width: 500px) {
+  .Toggler {
+    display: none;
+  }
+}
+
+.HamburgerStick:after {
+  content: '';
+  display: block;
+  background: white;
+  width: 30px;
+  height: 3px;
+  margin-bottom: 7px;
+  border-radius: 2px;
+}
+
+.CornerCase:after {
+  margin-bottom: 0;
+}

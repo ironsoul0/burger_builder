@@ -1,0 +1,46 @@
+.BuildControl {
+  margin-top: -18px;
+}
+
+.title {
+  display: inline-block;
+  text-transform: uppercase;
+  background: #05b566;
+  padding: 6px 8px;
+  width: 70px;
+  text-align: center;
+  margin-right: 25px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.button {
+  padding: 8px 19px;
+  text-align: center;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.more {
+  background: #f4ee2e;
+  margin-right: 15px;
+  width: 60px;
+}
+
+.less {
+  background: #f40000;
+  width: 60px;
+}
+
+.disabled {
+  background: gray;
+  color: black;
+  cursor: not-allowed !important;
+}
+
+
